@@ -7,6 +7,7 @@ import { NgStyleComponent } from './components/ng-style/ng-style.component';
 import { CssComponent } from './components/css/css.component';
 import { ClassesComponent } from './components/classes/classes.component';
 import { ResaltadoDirective } from './directives/resaltado.directive';
+import { NgSwithComponent } from './components/ng-swith/ng-swith.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { ResaltadoDirective } from './directives/resaltado.directive';
     NgStyleComponent,
     CssComponent,
     ClassesComponent,
-    ResaltadoDirective
+    ResaltadoDirective,
+    NgSwithComponent
   ],
   imports: [
     BrowserModule
